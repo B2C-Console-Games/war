@@ -1,0 +1,925 @@
+---> int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2104]
+    Opened input file
+    Opened vars file
+    Parsing ...
+    Processing line 1!
+    (LEX)TK_Integer=1010 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"BASIC LIBRARY--'WAR'--18-JUL-70"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="BASIC LIBRARY--'WAR'--18-JUL-70"
+    Processing line 2!
+    (LEX)TK_Integer=1020 YYSTATE=0
+    Processing line 3!
+    (LEX)TK_Integer=1030 YYSTATE=0
+    Processing line 4!
+    (LEX)TK_Integer=1040 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"THIS IS THE CARD GAME OF WAR.  EACH CARD IS GIVEN BY SUIT-#"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="THIS IS THE CARD GAME OF WAR.  EACH CARD IS GIVEN BY SUIT-#"
+    Processing line 5!
+    (LEX)TK_Integer=1050 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"AS S-7 FOR SPADE 7.  "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="AS S-7 FOR SPADE 7.  "
+    Processing line 6!
+    (LEX)TK_Integer=1060 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"DO YOU WANT DIRECTIONS"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DO YOU WANT DIRECTIONS"
+    Processing line 7!
+    (LEX)TK_Integer=1070 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=B$
+    (normal)basiclval.stype='B$'
+    Processing line 8!
+    (LEX)TK_Integer=1080 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=B$
+    (normal)basiclval.stype='B$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"N"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1150 YYSTATE=3
+    Processing line 9!
+    (LEX)TK_Integer=1090 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=B$
+    (normal)basiclval.stype='B$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"Y"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1120 YYSTATE=3
+    Processing line 10!
+    (LEX)TK_Integer=1100 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"Y OR N, PLEASE.  "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="Y OR N, PLEASE.  "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 11!
+    (LEX)TK_Integer=1110 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1060 YYSTATE=3
+    Processing line 12!
+    (LEX)TK_Integer=1120 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"THE PDP-10 GIVES YOU AND IT A 'CARD'.  THE HIGHER 'CARD' "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="THE PDP-10 GIVES YOU AND IT A 'CARD'.  THE HIGHER 'CARD' "
+    Processing line 13!
+    (LEX)TK_Integer=1130 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"(NUMERICALLY) WINS.  THE GAME ENDS WHEN YOU CHOOSE NT"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="(NUMERICALLY) WINS.  THE GAME ENDS WHEN YOU CHOOSE NT"
+    Processing line 14!
+    (LEX)TK_Integer=1140 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '" TO CONTINUE OR WHEN YOU HAVE FINISHED THE PACK."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" TO CONTINUE OR WHEN YOU HAVE FINISHED THE PACK."
+    Processing line 15!
+    (LEX)TK_Integer=1150 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 16!
+    (LEX)TK_Integer=1160 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 17!
+    (LEX)TK_Integer=1170 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=52 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x44','
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=54 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 18!
+    (LEX)TK_Integer=1180 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    (LEX)TK_Integer=52 YYSTATE=3
+    Processing line 19!
+    (LEX)TK_Integer=1190 YYSTATE=0
+    (LEX)TK_Read='READ'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 20!
+    (LEX)TK_Integer=1200 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Processing line 21!
+    (LEX)TK_Integer=1210 YYSTATE=0
+    (LEX)TK_Randomize='RANDOM'
+    Processing line 22!
+    (LEX)TK_Integer=1220 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    (LEX)TK_Integer=52 YYSTATE=3
+    Processing line 23!
+    (LEX)TK_Integer=1230 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=52 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 24!
+    (LEX)TK_Integer=1240 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 25!
+    (LEX)TK_Integer=1250 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1280 YYSTATE=3
+    Processing line 26!
+    (LEX)TK_Integer=1260 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 27!
+    (LEX)TK_Integer=1270 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1290 YYSTATE=3
+    Processing line 28!
+    (LEX)TK_Integer=1280 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Processing line 29!
+    (LEX)TK_Integer=1290 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Processing line 30!
+    (LEX)TK_Integer=1300 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P
+    (normal)basiclval.stype='P'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P
+    (normal)basiclval.stype='P'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 31!
+    (LEX)TK_Integer=1310 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=M1
+    (normal)basiclval.stype='M1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P
+    (normal)basiclval.stype='P'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 32!
+    (LEX)TK_Integer=1320 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P
+    (normal)basiclval.stype='P'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P
+    (normal)basiclval.stype='P'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 33!
+    (LEX)TK_Integer=1330 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=M2
+    (normal)basiclval.stype='M2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P
+    (normal)basiclval.stype='P'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 34!
+    (LEX)TK_Integer=1340 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 35!
+    (LEX)TK_Integer=1350 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 36!
+    (LEX)TK_Integer=1360 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"YOU: "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU: "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_SName(PrintStmt)=A$
+        printfield = 3
+        yytext     = '('
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Name(PrintStmt)=M1
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    Got some space characters in a print line.
+        printfield = 5
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '44'
+        printfield = 6
+        yytext     = '"PDP-10: "'
+        LastToken  = '44'
+    (LEX)TK_QuoteString(PRINTSTMT)="PDP-10: "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_SName(PrintStmt)=A$
+        printfield = 8
+        yytext     = '('
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Name(PrintStmt)=M2
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    Processing line 37!
+    (LEX)TK_Integer=1370 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N1
+    (normal)basiclval.stype='N1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=M1
+    (normal)basiclval.stype='M1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Float=.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=4 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 38!
+    (LEX)TK_Integer=1380 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N2
+    (normal)basiclval.stype='N2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=M2
+    (normal)basiclval.stype='M2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Float=.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=4 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 39!
+    (LEX)TK_Integer=1390 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N1
+    (normal)basiclval.stype='N1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N2
+    (normal)basiclval.stype='N2'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1430 YYSTATE=3
+    Processing line 40!
+    (LEX)TK_Integer=1400 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A1
+    (normal)basiclval.stype='A1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A1
+    (normal)basiclval.stype='A1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 41!
+    (LEX)TK_Integer=1410 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"PDP-10 WINS. YOU HAVE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="PDP-10 WINS. YOU HAVE"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=B1
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '"; PDP-10 HAS"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="; PDP-10 HAS"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=A1
+    Processing line 42!
+    (LEX)TK_Integer=1420 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1480 YYSTATE=3
+    Processing line 43!
+    (LEX)TK_Integer=1430 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N1
+    (normal)basiclval.stype='N1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N2
+    (normal)basiclval.stype='N2'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1470 YYSTATE=3
+    Processing line 44!
+    (LEX)TK_Integer=1440 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B1
+    (normal)basiclval.stype='B1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B1
+    (normal)basiclval.stype='B1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 45!
+    (LEX)TK_Integer=1450 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"YOU WIN.  YOU HAVE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU WIN.  YOU HAVE"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=B1
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '"; PDP-10 HAS"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="; PDP-10 HAS"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=A1
+    Processing line 46!
+    (LEX)TK_Integer=1460 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1480 YYSTATE=3
+    Processing line 47!
+    (LEX)TK_Integer=1470 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"TIE. N SCORE CHANGE."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="TIE. N SCORE CHANGE."
+    Processing line 48!
+    (LEX)TK_Integer=1480 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P
+    (normal)basiclval.stype='P'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1550 YYSTATE=3
+    Processing line 49!
+    (LEX)TK_Integer=1490 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"DO YOU WANT TO CONTINUE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DO YOU WANT TO CONTINUE"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 50!
+    (LEX)TK_Integer=1500 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=V$
+    (normal)basiclval.stype='V$'
+    Processing line 51!
+    (LEX)TK_Integer=1510 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=V$
+    (normal)basiclval.stype='V$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"Y"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1300 YYSTATE=3
+    Processing line 52!
+    (LEX)TK_Integer=1520 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=V$
+    (normal)basiclval.stype='V$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"NO"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1590 YYSTATE=3
+    Processing line 53!
+    (LEX)TK_Integer=1530 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"Y OR NO, PLEASE.  "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="Y OR NO, PLEASE.  "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 54!
+    (LEX)TK_Integer=1540 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1500 YYSTATE=3
+    Processing line 55!
+    (LEX)TK_Integer=1550 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 56!
+    (LEX)TK_Integer=1560 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" "
+    Processing line 57!
+    (LEX)TK_Integer=1570 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU HAVE RUN OUT OF CARDS. FINAL SCORE: YOU--"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU HAVE RUN OUT OF CARDS. FINAL SCORE: YOU--"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=B1
+    Processing line 58!
+    (LEX)TK_Integer=1580 YYSTATE=0
+    (LEX)TK_Print='PRINTTAB'
+    (LEX)TK_Tab<PrintStmt>='TAB'
+        printfield = 1
+        yytext     = 'TAB'
+        LastToken  = '303'
+        printfield = 3
+        yytext     = '('
+        LastToken  = '318'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Integer(PrintStmt)=40
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 5
+        yytext     = '"PDP-10--"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="PDP-10--"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=A1
+    Processing line 59!
+    (LEX)TK_Integer=1590 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"THANKS FOR PLAYING. IT WAS FUN."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="THANKS FOR PLAYING. IT WAS FUN."
+    Processing line 60!
+    (LEX)TK_Integer=1600 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='S-2'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-2'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-2'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-2'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-3'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-3'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-3'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-3'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-5'
+    Processing line 61!
+    (LEX)TK_Integer=1610 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='D-5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-9'
+    Processing line 62!
+    (LEX)TK_Integer=1620 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='C-9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-J'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-J'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-J'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-J'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-Q'
+    Processing line 63!
+    (LEX)TK_Integer=1630 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='S-K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S-A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H-A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C-A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D-A'
+    Processing line 64!
+    (LEX)TK_Integer=1640 YYSTATE=0
+    (LEX)TK_Stop='STOP'
+    Processing line 65!
+    (LEX)TK_Integer=1650 YYSTATE=0
+    (LEX)TK_End='END'
+    Processing line 66!
+    Sorting Symbols ...
+    Grab Labels ...
+    Update Vars ...
+    Mark All Routines ...
+    Display Initial Code ...
+    TStatement::_RtnCount-1=0
+    Fixup targets that are on comments.
+    FixupTargets() stmt:'1010 PRINT "BASIC LIBRARY--'WAR'--18-JUL-70"'
+    FixupTargets() stmt:'1020 REM  *  *  *  *  *  *   MAIN PROGRAM   *  *  *  *  *  *  *  *  *  *  *  *'
+    FixupTargets() stmt:'1030 REM'
+    FixupTargets() stmt:'1040 PRINT "THIS IS THE CARD GAME OF WAR.  EACH CARD IS GIVEN BY SUIT-#"'
+    FixupTargets() stmt:'1050 PRINT "AS S-7 FOR SPADE 7.  "'
+    FixupTargets() stmt:'1060 PRINT "DO YOU WANT DIRECTIONS"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1070 INPUT B$'
+    FixupTargets() stmt:'1080 IF B$="N" THEN 1150'
+    FixupTargets() stmt:'1090 IF B$="Y" THEN 1120'
+    FixupTargets() stmt:'1100 PRINT "Y OR N, PLEASE.  ";'
+    FixupTargets() stmt:'1110 GO TO 1060'
+    FixupTargets() stmt:'1120 PRINT "THE PDP-10 GIVES YOU AND IT A 'CARD'.  THE HIGHER 'CARD' "'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1130 PRINT "(NUMERICALLY) WINS.  THE GAME ENDS WHEN YOU CHOOSE NT"'
+    FixupTargets() stmt:'1140 PRINT " TO CONTINUE OR WHEN YOU HAVE FINISHED THE PACK."'
+    FixupTargets() stmt:'1150 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1160 PRINT'
+    FixupTargets() stmt:'1170 DIM A$(52), L(54)'
+    FixupTargets() stmt:'1180 FOR I=1 TO 52'
+    FixupTargets() stmt:'1190 READ A$(I)'
+    FixupTargets() stmt:'1200 NEXT I'
+    FixupTargets() stmt:'1210 RANDOM'
+    FixupTargets() stmt:'1220 FOR J=1 TO 52'
+    FixupTargets() stmt:'1230 LET L(J)=INT(52*RND+1)'
+    FixupTargets() stmt:'1240 FOR K=1 TO J-1'
+    FixupTargets() stmt:'1250 IF L(K)<>L(J) THEN 1280'
+    FixupTargets() stmt:'1260 LET J=J-1'
+    FixupTargets() stmt:'1270 GO TO 1290'
+    FixupTargets() stmt:'1280 NEXT K'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1290 NEXT J'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1300 LET P=P+1'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1310 LET M1=L(P)'
+    FixupTargets() stmt:'1320 LET P=P+1'
+    FixupTargets() stmt:'1330 LET M2=L(P)'
+    FixupTargets() stmt:'1340 PRINT'
+    FixupTargets() stmt:'1350 PRINT'
+    FixupTargets() stmt:'1360 PRINT "YOU: ";A$(M1), "PDP-10: ";A$(M2),'
+    FixupTargets() stmt:'1370 LET N1=INT((M1-.5)/4)'
+    FixupTargets() stmt:'1380 LET N2=INT((M2-.5)/4)'
+    FixupTargets() stmt:'1390 IF N1>=N2 THEN 1430'
+    FixupTargets() stmt:'1400 LET A1=A1+1'
+    FixupTargets() stmt:'1410 PRINT"PDP-10 WINS. YOU HAVE";B1;"; PDP-10 HAS";A1'
+    FixupTargets() stmt:'1420 GO TO 1480'
+    FixupTargets() stmt:'1430 IF N1=N2 THEN 1470'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1440 LET B1=B1+1'
+    FixupTargets() stmt:'1450 PRINT "YOU WIN.  YOU HAVE";B1;"; PDP-10 HAS";A1'
+    FixupTargets() stmt:'1460 GO TO 1480'
+    FixupTargets() stmt:'1470 PRINT "TIE. N SCORE CHANGE."'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1480 IF L(P+1)= 0 THEN 1550'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1490 PRINT "DO YOU WANT TO CONTINUE";'
+    FixupTargets() stmt:'1500 INPUT V$'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1510 IF V$="Y" THEN 1300'
+    FixupTargets() stmt:'1520 IF V$="NO" THEN 1590'
+    FixupTargets() stmt:'1530 PRINT"Y OR NO, PLEASE.  ";'
+    FixupTargets() stmt:'1540 GO TO 1500'
+    FixupTargets() stmt:'1550 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1560 PRINT" "'
+    FixupTargets() stmt:'1570 PRINT"YOU HAVE RUN OUT OF CARDS. FINAL SCORE: YOU--";B1'
+    FixupTargets() stmt:'1580 PRINTTAB(40);"PDP-10--";A1'
+    FixupTargets() stmt:'1590 PRINT"THANKS FOR PLAYING. IT WAS FUN."'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1600 DATA S-2,H-2,C-2,D-2,S-3,H-3,C-3,D-3,S-4,H-4,C-4,D-4,S-5,H-5,C-5'
+    FixupTargets() stmt:'1610 DATA D-5,S-6,H-6,C-6,D-6,S-7,H-7,C-7,D-7,S-8,H-8,C-8,D-8,S-9,H-9'
+    FixupTargets() stmt:'1620 DATA C-9,D-9,S10,H-10,C-10,D-10,S-J,H-J,C-J,D-J,S-Q,H-Q,C-Q,D-Q'
+    FixupTargets() stmt:'1630 DATA S-K,H-K,C-K,D-K,S-A,H-A,C-A,D-A'
+    FixupTargets() stmt:'1640 STOP'
+    FixupTargets() stmt:'1650 END'
+    Finished FixupTargets
+    Split Overlapping Subroutines ...
+    Straighten Overlapping Subroutines ...
+    Renumber Source ...
+    Display Empty Code Ranges ...
+    Display Symbol Table ...
+    Display of final 'clean' BASIC listing ...
+    TStatement::_RtnCount-1=0
+    Finished!!!
+<--- int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2210]
